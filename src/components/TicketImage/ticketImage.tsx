@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./ticketImage.module.css";
-import { TicketImageProps } from "./ticketImageTypes";
+import { TicketImageProps } from "./ticketImage.types";
 
 const ticketImage: React.FC<TicketImageProps> = ({ name, image }) => {
   return (

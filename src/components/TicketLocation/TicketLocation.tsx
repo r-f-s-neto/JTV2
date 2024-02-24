@@ -1,4 +1,4 @@
-import { TicketLocationProps } from "./ticketLocationTypes";
+import { TicketLocationProps } from "./ticketLocation.types";
 import Image from "next/image";
 import map from "../../assets/images/ticketLocation/map.png";
 import styles from "./ticketLocation.module.css";

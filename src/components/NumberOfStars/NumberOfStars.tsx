@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import starIcon from "../../assets/images/numberOfStars/starIcon.svg";
 
-import { NumberOfStarsProps } from "./numberOfStarsTypes";
+import { NumberOfStarsProps } from "./numberOfStars.types";
 
 import styles from "./numberOfStars.module.css";
 

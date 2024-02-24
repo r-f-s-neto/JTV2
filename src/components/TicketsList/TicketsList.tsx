@@ -1,5 +1,5 @@
 import React from "react";
-import { TicketsListProps } from "./ticketsListTypes";
+import { TicketsListProps } from "./ticketsList.types";
 import TicketCard from "../TicketCard";
 import styles from "./ticketsList.module.css";
 import { useRouter } from "next/navigation";

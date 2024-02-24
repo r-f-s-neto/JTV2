@@ -5,7 +5,7 @@ import Image from "next/image";
 import pinIcon from "../../assets/images/searchInput/pinIcon.svg";
 import searchIcon from "../../assets/images/searchInput/magnifierIcon.svg";
 
-import { SearchInputProps } from "./searchInputTypes";
+import { SearchInputProps } from "./searchInput.types";
 import styles from "./searchInput.module.css";
 import { useState } from "react";
 

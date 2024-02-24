@@ -1,4 +1,4 @@
-import { InfoBoxProps } from "./infoBoxTypes";
+import { InfoBoxProps } from "./infoBox.types";
 import Image from "next/image";
 import map from "../../assets/images/ticketLocation/map.png";
 import styles from "./infoBox.module.css";

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import cartIcon from "../../assets/images/cartButton/cart.svg";
 import styles from "./cartButton.module.css";
-import { CartButtonProps } from "./cartButtonTypes";
+import { CartButtonProps } from "./cartButton.types";
 import {
   Button,
   ClickAwayListener,
@@ -17,7 +17,7 @@ import zIndex from "@mui/material/styles/zIndex";
 import PriceInformation from "../PriceInformation";
 import SecondaryButton from "../SecondaryButton";
 import iconEmptyCart from "../../assets/images/cartButton/emptyCart.svg";
-import { GroupedDataType } from "../Header/headerTypes";
+import { GroupedDataType } from "../Header/header.types";
 const CartButton: React.FC<CartButtonProps> = ({
   numberOfItems,
   cartData,
@@ -92,8 +92,7 @@ const CartButton: React.FC<CartButtonProps> = ({
           <Grow
             {...TransitionProps}
             style={{
-              transformOrigin:
-                placement === "bottom-start" ? "left top" : "left bottom",
+              transformOrigin: "right top",
             }}
           >
             <Paper className={styles.cart__list}>

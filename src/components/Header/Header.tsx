@@ -7,7 +7,7 @@ import flagIcon from "../../assets/images/header/flag.svg";
 import helpIcon from "../../assets/images/header/message-question-checkmark.svg";
 import userIcon from "../../assets/images/header/userIcon.svg";
 
-import { GroupedDataType } from "./headerTypes";
+import { GroupedDataType } from "./header.types";
 import styles from "./header.module.css";
 
 import CartButton from "../CartButton/CartButton";

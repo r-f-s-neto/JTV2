@@ -5,7 +5,7 @@ import Image from "next/image";
 import PinIcon from "../../assets/images/searchInput/pinIcon.svg";
 import PrimaryButton from "../PrimaryButton";
 
-import { TicketCardProps } from "./ticketCardTypes";
+import { TicketCardProps } from "./ticketCard.types";
 
 const TicketCard: React.FC<TicketCardProps> = ({
   name,

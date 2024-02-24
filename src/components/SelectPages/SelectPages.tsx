@@ -11,7 +11,7 @@ import {
   Select,
   styled,
 } from "@mui/material";
-import { SelectPagesProps } from "./selectPagesTypes";
+import { SelectPagesProps } from "./selectPages.types";
 import { useEffect, useRef, useState } from "react";
 import { SelectChangeEvent } from "@mui/material";
 import { createArray } from "@/utils/createArray";

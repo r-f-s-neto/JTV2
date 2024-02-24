@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { TicketHeaderProps } from "./ticketHeaderTypes";
+import { TicketHeaderProps } from "./ticketHeader.types";
 import PinIcon from "../../assets/images/searchInput/pinIcon.svg";
 import styles from "./ticketHeader.module.css";
 //import { useRouter } from "next/navigation";

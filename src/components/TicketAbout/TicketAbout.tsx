@@ -1,4 +1,4 @@
-import { TicketAboutProps } from "./ticketAboutTypes";
+import { TicketAboutProps } from "./ticketAbout.types";
 
 import styles from "./ticketAbout.module.css";
 

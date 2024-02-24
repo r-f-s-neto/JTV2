@@ -2,7 +2,7 @@ import IconArrow from "../IconArrow";
 
 import styles from "./secondaryButton.module.css";
 
-import { SecondaryButtonProps } from "./SecondaryButtonTypes";
+import { SecondaryButtonProps } from "./SecondaryButton.types";
 
 const SecondaryButton: React.FC<SecondaryButtonProps> = ({
   handleClick,

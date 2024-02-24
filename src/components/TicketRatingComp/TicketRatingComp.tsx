@@ -1,5 +1,5 @@
 import React from "react";
-import { TicketRatingCompProps } from "./TicketRatingCompTypes";
+import { TicketRatingCompProps } from "./ticketRatingComp.types";
 import styles from "./ticketRatingComp.module.css";
 
 const TicketRatingComp: React.FC<TicketRatingCompProps> = ({

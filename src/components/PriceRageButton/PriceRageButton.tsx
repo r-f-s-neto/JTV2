@@ -1,4 +1,4 @@
-import { PriceFilterProps } from "./priceRageButtonTypes";
+import { PriceFilterProps } from "./priceRageButton.types";
 
 import styles from "./priceRageButton.module.css";
 

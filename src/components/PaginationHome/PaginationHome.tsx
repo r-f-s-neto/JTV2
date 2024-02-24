@@ -1,6 +1,6 @@
 import { Pagination, ThemeProvider, createTheme } from "@mui/material";
 import { ChangeEvent } from "react";
-import { PaginationHomeProps } from "./PaginationHomeType";
+import { PaginationHomeProps } from "./PaginationHome.types";
 import styles from "./paginationHome.module.css";
 import SelectPages from "../SelectPages";
 const PaginationHome: React.FC<PaginationHomeProps> = ({

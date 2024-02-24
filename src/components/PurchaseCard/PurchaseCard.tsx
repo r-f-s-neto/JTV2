@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./purchaseCard.module.css";
-import { PurchaseCardProps } from "./purchaseCardTypes";
+import { PurchaseCardProps } from "./purchaseCard.types";
 import { useDispatch } from "react-redux";
 import { AppDispatch } from "@/redux/store";
 import { shoppingCartActions } from "@/redux/reducers/shoppingCartSlice/shoppingCartSlice";

@@ -1,5 +1,5 @@
 "use client";
-import { TicketCallToActionProps } from "./ticketCallToActionTypes";
+import { TicketCallToActionProps } from "./ticketCallToAction.types";
 
 import styles from "./ticketCallToAction.module.css";
 import InfoBox from "../InfoBox";

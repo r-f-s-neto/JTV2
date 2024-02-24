@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import cartIcon from "../../assets/images/cartButton/cart.svg";
 import styles from "./ticketDescription.module.css";
-import { TicketDescriptionProps } from "./ticketDescriptionTypes";
+import { TicketDescriptionProps } from "./ticketDescription.types";
 import TicketRatingComp from "../TicketRatingComp";
 import TicketBenefits from "../TicketBenefits";
 import TicketAbout from "../TicketAbout";

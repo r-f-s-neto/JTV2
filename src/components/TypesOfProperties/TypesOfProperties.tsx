@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import hotelIcon from "../../assets/images/typesOfProperties/hotelIcon.svg";
 
-import { TypesOfPropertiesProps } from "./typesOfPropertiesTypes";
+import { TypesOfPropertiesProps } from "./typesOfProperties.types";
 
 import styles from "./typesOfProperties.module.css";
 import { useState } from "react";

@@ -1,4 +1,4 @@
-import { BarReviewScoreProps } from "./barReviewScoreTypes";
+import { BarReviewScoreProps } from "./barReviewScore.types";
 
 import styles from "./barReviewScore.module.css";
 import { useEffect, useState } from "react";

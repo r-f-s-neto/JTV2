@@ -1,5 +1,5 @@
 import React from "react";
-import { PriceInformationProps } from "./priceInformationTypes";
+import { PriceInformationProps } from "./priceInformation.types";
 import styles from "./priceInformation.module.css";
 
 const PriceInformation: React.FC<PriceInformationProps> = ({
