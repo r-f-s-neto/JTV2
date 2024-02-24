@@ -30,6 +30,28 @@ export default function Home() {
   const [isSearchActive, setIsSearchActive] = useState(false);
   const [allTicketsFromFilter, setAllTicketsFromFilter] = useState([]);
 
+  const renderTickets = () => {
+    if (loading) {
+      return <LoadingProducts />;
+    }
+
+    if (ticketsToRender?.length) {
+      return (
+        <>
+          <TicketsList ticketsToRender={ticketsToRender} />
+          <PaginationHome
+            totalOfItems={totalOfTickets ? totalOfTickets : 0}
+            itemsPerPage={6}
+            page={page}
+            setPage={setPage}
+          />
+        </>
+      );
+    }
+
+    return <NoData text="Nenhum Ingresso Encontrado" />;
+  };
+
   const handleSearch = async () => {
     if (search) {
       setIsSearchActive(true);
@@ -138,23 +160,7 @@ export default function Home() {
         <div className={styles.home__main__aside}>
           <AsideFilter />
         </div>
-        <div className={styles.home__main__content}>
-          {loading ? (
-            <LoadingProducts />
-          ) : ticketsToRender?.length ? (
-            <>
-              <TicketsList ticketsToRender={ticketsToRender} />
-              <PaginationHome
-                totalOfItems={totalOfTickets ? totalOfTickets : 0}
-                itemsPerPage={6}
-                page={page}
-                setPage={setPage}
-              />
-            </>
-          ) : (
-            <NoData text="Nenhum Ingresso Encontrado" />
-          )}
-        </div>
+        <div className={styles.home__main__content}>{renderTickets()}</div>
       </main>
     </div>
   );

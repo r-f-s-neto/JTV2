@@ -10,7 +10,7 @@ import styles from "./header.module.css";
 import CartButton from "../CartButton/CartButton";
 import { useAppSelector } from "@/redux/store";
 import { useEffect, useState } from "react";
-import { TicketType } from "@/utils/ticketType";
+import { TicketType } from "@/models/ticketType";
 import ExchangeRate from "../ExchangeRate";
 
 export default function Header() {

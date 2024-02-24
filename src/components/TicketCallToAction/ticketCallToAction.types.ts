@@ -1,4 +1,4 @@
-import { TicketType } from "@/utils/ticketType";
+import { TicketType } from "@/models/ticketType";
 
 export interface TicketCallToActionProps {
   ticketInfo: TicketType;

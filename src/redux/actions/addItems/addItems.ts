@@ -1,6 +1,6 @@
 import { PayloadAction } from "@reduxjs/toolkit";
 import { ShoppingCartState } from "../../reducers/shoppingCartSlice/shoppingCartTypes";
-import { TicketType } from "@/utils/ticketType";
+import { TicketType } from "@/models/ticketType";
 
 export const addItems = (
   state: ShoppingCartState,

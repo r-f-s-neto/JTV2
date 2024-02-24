@@ -1,8 +1,4 @@
-//"use client";
-
-//import { useRouter } from "next/navigation";
-//import { useEffect, useState } from "react";
-import { TicketProps } from "./TicketTypes";
+import { TicketProps } from "./ticketPage.types";
 import TicketHeader from "@/components/TicketHeader";
 import styles from "./page.module.css";
 import TicketImage from "@/components/TicketImage";
