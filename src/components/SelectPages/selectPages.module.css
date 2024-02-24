@@ -1,0 +1,26 @@
+.selectPages__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #fff;
+  border-radius: 0.3125rem;
+  border: 0.0625rem solid #8a90bd;
+  padding-top: 0.0625rem;
+  padding-bottom: 0.0625rem;
+  padding-left: 0.75rem;
+  padding-right: 0.25rem;
+  min-width: 4.3125;
+}
+.selectPages__button__text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  color: #828292;
+}
+.selectPages__button__icon div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,32 @@
+.ticketHeader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0.9375rem;
+}
+.ticketHeader__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.ticketHeader__info h3 {
+  font-family: "Circular Std", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  color: #0a2156;
+}
+
+.ticketHeader__info__location {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.ticketHeader__info__location span {
+  font-family: "Circular Std", sans-serif;
+  font-weight: 450;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  color: #3c4c70;
+}

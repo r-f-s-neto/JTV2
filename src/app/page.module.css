@@ -1,0 +1,14 @@
+.home__main {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem 3.75rem;
+  background-color: #f6f6f6;
+}
+.home__main__aside {
+  flex: 1;
+}
+.home__main__content {
+  flex: 2.53;
+}

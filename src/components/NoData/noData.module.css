@@ -1,0 +1,13 @@
+.noData {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.noData__text {
+  font-family: "Circular Std", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  color: #0a2156;
+}

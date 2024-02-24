@@ -1,0 +1,25 @@
+.primaryButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.1069rem;
+  padding: 0.75rem 1.75rem;
+  min-width: max-content;
+  border-radius: 0.1875rem;
+
+  background-color: #4070f4;
+  font-family: "Circular Std", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 0.9rem;
+  color: #ffffff;
+}
+
+.primaryButton:hover {
+  background-color: #94affa;
+}
+.primaryButton__arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,31 @@
+.paginationHome {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.paginationHome__total {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.907rem;
+  color: #828292;
+}
+.paginationHome__textContainer {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+  gap: 1.5rem;
+}
+.paginationHome__textContainer__selectPage {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.paginationHome__textContainer__selectPage__text {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 0.9075rem;
+  color: #3e3f44;
+}

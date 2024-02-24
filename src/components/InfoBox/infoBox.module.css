@@ -1,0 +1,30 @@
+.infoBox {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.infoBox__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.infoBox__content__text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.infoBox__content__text h3 {
+  font-family: "Circular Std", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  color: #0a2156;
+}
+.infoBox__content__text p {
+  font-family: "Circular Std", sans-serif;
+  font-weight: 450;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  color: #9ea5b8;
+}

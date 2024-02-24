@@ -1,0 +1,25 @@
+.ticketImage {
+  position: relative;
+  width: 100%;
+}
+.ticketImage__button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 1rem 1.237rem;
+  border-radius: 0.25rem;
+  background-color: #ffffff;
+  color: #4070f4;
+  font-family: "Circular Std", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.125rem;
+}
+.ticketImage__img img {
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+}

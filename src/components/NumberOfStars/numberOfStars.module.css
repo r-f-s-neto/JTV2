@@ -1,0 +1,21 @@
+.numberOfStars {
+  border: 0.0625rem solid #e7e9ed;
+  padding: 0.25rem;
+  max-width: max-content;
+}
+.numberOfStars__container {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  max-width: max-content;
+}
+.numberOfStars__container__stars {
+  display: flex;
+  align-items: center;
+}
+.numberOfStars__container__total {
+  font-family: "Circular Std", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  color: #b6bcc9;
+}

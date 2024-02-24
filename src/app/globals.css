@@ -1,0 +1,44 @@
+body {
+  margin: 0px;
+  background-color: #f6f6f6;
+}
+button {
+  padding: 0px;
+  border: 0px;
+  background-color: inherit;
+  cursor: pointer;
+}
+* {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3 {
+  margin: 0rem;
+}
+ul {
+  margin: 0rem;
+  padding: 0rem;
+}
+li {
+  list-style: none;
+}
+input {
+  margin: 0rem;
+}
+p {
+  margin: 0px;
+}
+body::-webkit-scrollbar {
+  width: 0.375rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #0045f3;
+  border-radius: 1.25rem;
+  border: none;
+}

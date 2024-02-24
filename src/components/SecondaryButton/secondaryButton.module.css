@@ -1,0 +1,28 @@
+.secondaryButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.1069rem;
+  padding: 0.75rem 1.75rem;
+  border-radius: 0.1875rem;
+  width: 100%;
+  min-width: max-content;
+
+  background-color: #4070f4;
+  font-family: "Circular Std", sans-serif;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  line-height: 1.125rem;
+  color: #ffffff;
+}
+
+.secondaryButton:hover {
+  background-color: #94affa;
+}
+.secondaryButton__large {
+  border-radius: 0.375rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.21rem;
+}

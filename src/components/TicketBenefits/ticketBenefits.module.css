@@ -1,0 +1,18 @@
+.ticketBenefits {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.875rem;
+}
+.ticketBenefits__item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.ticketBenefits__item__text {
+  font-family: "Circular Std", sans-serif;
+  font-weight: 450;
+  font-size: 0.875;
+  line-height: 1.125rem;
+  color: #9ea5b8;
+}

@@ -1,0 +1,71 @@
+.priceInformation {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.priceInformation__tickets {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.21rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #868a9d;
+}
+.priceInformation__subtotal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.priceInformation__subtotal__text {
+  font-family: "Circular Std", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  color: #0a2156;
+}
+.priceInformation__subtotal__price {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.21rem;
+  color: #17191c;
+}
+.priceInformation__discount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.priceInformation__discount__text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.21rem;
+  color: #868a9d;
+}
+.priceInformation__discount__textBlue {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.21rem;
+  color: #00919e;
+}
+.priceInformation__discount__price {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.21rem;
+  color: #00919e;
+}
+.priceInformation__noDiscount {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.21rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #868a9d;
+}

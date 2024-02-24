@@ -1,0 +1,24 @@
+.ticketLocation {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.ticketLocation__title {
+  font-family: "Circular Std", sans-serif;
+  font-weight: 500;
+  font-size: 1.375rem;
+  line-height: 1.875rem;
+  color: #0a2156;
+}
+.ticketLocation__text {
+  font-family: "Circular Std", sans-serif;
+  font-weight: 450;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  color: #9ea5b8;
+}
+.ticketLocation__imageContainer img {
+  object-fit: cover;
+  width: 100%;
+  max-width: 100%;
+}
