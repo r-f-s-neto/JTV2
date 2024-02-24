@@ -1,7 +1,5 @@
 import IconArrow from "../IconArrow";
-
 import styles from "./primaryButton.module.css";
-
 import { PrimaryButtonProps } from "./primaryButton.types";
 
 const PrimaryButton: React.FC<PrimaryButtonProps> = ({ handleClick, text }) => {

@@ -1,5 +1,4 @@
 import { PriceFilterProps } from "./priceRageButton.types";
-
 import styles from "./priceRageButton.module.css";
 
 const PriceRageButton: React.FC<PriceFilterProps> = ({

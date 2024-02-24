@@ -1,5 +1,4 @@
 import { BarReviewScoreProps } from "./barReviewScore.types";
-
 import styles from "./barReviewScore.module.css";
 import { useEffect, useState } from "react";
 
@@ -11,6 +10,7 @@ const BarReviewScore: React.FC<BarReviewScoreProps> = ({
   const [graySize, setGraySize] = useState(1);
   const [label, setLabel] = useState("Excelente (543)");
   const [grade, setGrade] = useState("9+");
+
   useEffect(() => {
     switch (typeOfReview) {
       case "excellent":

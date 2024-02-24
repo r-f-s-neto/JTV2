@@ -1,8 +1,6 @@
 "use client";
-import Image from "next/image";
 
 import SearchInput from "@/components/SearchInput/SearchInput";
-
 import styles from "./page.module.css";
 import { useEffect, useState } from "react";
 import { filterTickets } from "@/services/filterTickets/filterTickets";
@@ -13,22 +11,26 @@ import PaginationHome from "@/components/PaginationHome";
 import { listPageTickets } from "@/services/listPageTickets/listPageTickets";
 import LoadingProducts from "@/components/LoadingProducts/LoadingProducts";
 import NoData from "@/components/NoData/NoData";
+import { toast } from "react-toastify";
 
 export default function Home() {
   const [search, setSearch] = useState("");
-  const [currentSearch, setCurrentSearch] = useState("");
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(false);
-  const [connectionError, setConnectionError] = useState(false);
+  const [isFilterTicketsConnectionError, setIsFilterTicketsConnectionError] =
+    useState(false);
+  const [isListAllTicketsConnectionError, setIsListAllTicketsConnectionError] =
+    useState(false);
+  const [
+    isListPageTicketsConnectionError,
+    setIsListPageTicketsConnectionError,
+  ] = useState(false);
   const [ticketsToRender, setTicketsToRender] = useState<any[]>([]);
-  const [allTickets, setAllTickets] = useState([]);
   const [totalOfTickets, setTotalOfTickets] = useState(0);
   const [page, setPage] = useState(1);
   const [isSearchActive, setIsSearchActive] = useState(false);
   const [allTicketsFromFilter, setAllTicketsFromFilter] = useState([]);
 
   const handleSearch = async () => {
-    setCurrentSearch(search);
     if (search) {
       setIsSearchActive(true);
       setPage(1);
@@ -38,8 +40,7 @@ export default function Home() {
       const allData = await filterTickets(
         search,
         setLoading,
-        setError,
-        setConnectionError,
+        setIsFilterTicketsConnectionError,
         "",
         ""
       );
@@ -66,24 +67,24 @@ export default function Home() {
 
   const updateTickets = async () => {
     let tickets = [];
-    let allTickets = [];
     let total = 0;
-    const allTicketsdata = await listAllTickets(setLoading, setConnectionError);
+    const allTicketsdata = await listAllTickets(
+      setLoading,
+      setIsListAllTicketsConnectionError
+    );
     if (allTicketsdata?.length) {
-      allTickets = allTicketsdata;
       total = allTicketsdata.length;
     }
 
     const pageTicketsData = await listPageTickets(
       setLoading,
-      setConnectionError,
+      setIsListPageTicketsConnectionError,
       page,
       6
     );
     if (pageTicketsData?.length) {
       tickets = pageTicketsData;
     }
-    setAllTickets(allTickets);
     setTotalOfTickets(total);
     setTicketsToRender(tickets);
   };
@@ -110,6 +111,20 @@ export default function Home() {
       updateTickets();
     }
   }, [page, isSearchActive]);
+
+  useEffect(() => {
+    if (
+      isFilterTicketsConnectionError ||
+      isListAllTicketsConnectionError ||
+      isListPageTicketsConnectionError
+    ) {
+      toast.error("Ocorreu um erro inesperado, tente novamente mais tarde!");
+    }
+  }, [
+    isFilterTicketsConnectionError,
+    isListAllTicketsConnectionError,
+    isListPageTicketsConnectionError,
+  ]);
 
   return (
     <div className={styles.home}>

@@ -13,11 +13,11 @@ import {
   Popper,
 } from "@mui/material";
 import PurchaseCard from "../PurchaseCard";
-import zIndex from "@mui/material/styles/zIndex";
 import PriceInformation from "../PriceInformation";
 import SecondaryButton from "../SecondaryButton";
 import iconEmptyCart from "../../assets/images/cartButton/emptyCart.svg";
 import { GroupedDataType } from "../Header/header.types";
+
 const CartButton: React.FC<CartButtonProps> = ({
   numberOfItems,
   cartData,

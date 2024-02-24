@@ -1,5 +1,6 @@
 import { Skeleton } from "@mui/material";
 import styles from "./loadingProducts.module.css";
+
 const LoadingProducts = () => {
   return (
     <div className={styles.loadingProducts}>

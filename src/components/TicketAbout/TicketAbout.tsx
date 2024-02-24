@@ -1,5 +1,4 @@
 import { TicketAboutProps } from "./ticketAbout.types";
-
 import styles from "./ticketAbout.module.css";
 
 const TicketAbout: React.FC<TicketAboutProps> = ({ description }) => {

@@ -1,19 +1,14 @@
 import {
   Button,
   ClickAwayListener,
-  FormControl,
   Grow,
-  InputLabel,
   MenuItem,
   MenuList,
   Paper,
   Popper,
-  Select,
-  styled,
 } from "@mui/material";
 import { SelectPagesProps } from "./selectPages.types";
 import { useEffect, useRef, useState } from "react";
-import { SelectChangeEvent } from "@mui/material";
 import { createArray } from "@/utils/createArray";
 import ArrowDown from "@/assets/svgs/ArrowDown/ArrowDown";
 import styles from "./selectPages.module.css";

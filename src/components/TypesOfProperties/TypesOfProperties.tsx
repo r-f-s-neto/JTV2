@@ -1,9 +1,4 @@
-import Image from "next/image";
-
-import hotelIcon from "../../assets/images/typesOfProperties/hotelIcon.svg";
-
 import { TypesOfPropertiesProps } from "./typesOfProperties.types";
-
 import styles from "./typesOfProperties.module.css";
 import { useState } from "react";
 import IconHouse from "../IconHouse";
@@ -16,6 +11,7 @@ const TypesOfProperties: React.FC<TypesOfPropertiesProps> = ({
   numberOfHotels,
 }) => {
   const [buttonActive, setButtonActive] = useState("house");
+
   return (
     <div className={styles.typesOfProperties}>
       <button

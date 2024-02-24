@@ -1,17 +1,17 @@
 "use client";
 
 import Image from "next/image";
-
 import pinIcon from "../../assets/images/searchInput/pinIcon.svg";
 import searchIcon from "../../assets/images/searchInput/magnifierIcon.svg";
-
 import { SearchInputProps } from "./searchInput.types";
 import styles from "./searchInput.module.css";
-import { useState } from "react";
 
-const SearchInput: React.FC<SearchInputProps> = ({ placeHolder, search, setSearch, handleSearch }) => {
-  //const [search, setSearch] = useState("");
-
+const SearchInput: React.FC<SearchInputProps> = ({
+  placeHolder,
+  search,
+  setSearch,
+  handleSearch,
+}) => {
   return (
     <div className={styles.container}>
       <form

@@ -1,15 +1,12 @@
 "use client";
 
 import Image from "next/image";
-
 import logoIcon from "../../assets/images/header/logo.svg";
 import flagIcon from "../../assets/images/header/flag.svg";
 import helpIcon from "../../assets/images/header/message-question-checkmark.svg";
 import userIcon from "../../assets/images/header/userIcon.svg";
-
 import { GroupedDataType } from "./header.types";
 import styles from "./header.module.css";
-
 import CartButton from "../CartButton/CartButton";
 import { useAppSelector } from "@/redux/store";
 import { useEffect, useState } from "react";

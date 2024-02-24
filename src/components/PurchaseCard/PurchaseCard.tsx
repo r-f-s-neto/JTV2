@@ -15,6 +15,7 @@ const PurchaseCard: React.FC<PurchaseCardProps> = ({
   id,
 }) => {
   const dispatch = useDispatch<AppDispatch>();
+
   const handleClick = () => {
     dispatch(shoppingCartActions.removeItems(id));
   };

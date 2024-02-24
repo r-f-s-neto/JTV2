@@ -1,11 +1,7 @@
-import Image from "next/image";
-
 import BarReviewScore from "../BarReviewScore";
 import NumberOfStars from "../NumberOfStars";
-
 import styles from "./AsideFilter.module.css";
 import TypesOfProperties from "../TypesOfProperties";
-import PriceRageButton from "../PriceRageButton";
 import PriceRageFilter from "../PriceRageFilter";
 import { Checkbox } from "@mui/material";
 

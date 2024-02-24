@@ -1,10 +1,10 @@
 import { useState } from "react";
 import PriceRageButton from "../PriceRageButton";
-
 import styles from "./priceRageFilter.module.css";
 
 const PriceRageFilter = () => {
   const [buttonActive, setButtonActive] = useState("op1");
+
   return (
     <div className={styles.PriceRageFilter}>
       <PriceRageButton

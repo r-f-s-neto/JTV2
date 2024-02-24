@@ -8,7 +8,6 @@ import styles from "./page.module.css";
 import TicketImage from "@/components/TicketImage";
 import TicketDescription from "@/components/TicketDescription";
 import TicketCallToAction from "@/components/TicketCallToAction";
-import { GetServerSideProps } from "next";
 import { getTicket } from "@/services/getTicket/getTicket";
 import NoData from "@/components/NoData/NoData";
 

@@ -18,7 +18,7 @@ const TicketsList: React.FC<TicketsListProps> = ({ ticketsToRender }) => {
                 id={ticket.id}
                 location={ticket.location}
                 image={ticket.image}
-                description={ticket.description}
+                description="ingresso"
                 priceFull={ticket.price.full}
                 priceDiscount={ticket.price.discount}
                 ratingReviewsCount={ticket.rating.reviewsCount}

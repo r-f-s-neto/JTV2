@@ -1,7 +1,6 @@
 import IconHeart from "../IconHeart";
 import styles from "./ticketCard.module.css";
 import Image from "next/image";
-
 import PinIcon from "../../assets/images/searchInput/pinIcon.svg";
 import PrimaryButton from "../PrimaryButton";
 
@@ -12,7 +11,7 @@ const TicketCard: React.FC<TicketCardProps> = ({
   id,
   location,
   image,
-  description,
+  description = "ingresso",
   priceFull,
   priceDiscount,
   ratingReviewsCount,
@@ -23,7 +22,7 @@ const TicketCard: React.FC<TicketCardProps> = ({
     <div data-testid="ticket-card" className={styles.ticketCard}>
       <div className={styles.ticketCard__imageContainer}>
         <span className={styles.ticketCard__imageContainer__firstIcon}>
-          ingresso
+          {description}
         </span>
         <div className={styles.ticketCard__imageContainer__secondIcon}>
           <IconHeart />

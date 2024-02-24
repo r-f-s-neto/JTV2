@@ -1,12 +1,9 @@
 import Image from "next/image";
-
 import ticketIcon from "../../assets/images/ticketBenefits/ticketIcon.svg";
 import wifiIcon from "../../assets/images/ticketBenefits/wifiIcon.svg";
 import coffeIcon from "../../assets/images/ticketBenefits/coffeIcon.svg";
 import houseIcon from "../../assets/images/ticketBenefits/houseIcon.svg";
-
 import styles from "./ticketBenefits.module.css";
-import { useEffect, useState } from "react";
 
 const TicketBenefits = () => {
   return (

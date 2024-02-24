@@ -1,12 +1,12 @@
 "use client";
-import { TicketCallToActionProps } from "./ticketCallToAction.types";
 
+import { TicketCallToActionProps } from "./ticketCallToAction.types";
 import styles from "./ticketCallToAction.module.css";
 import InfoBox from "../InfoBox";
 import SecondaryButton from "../SecondaryButton";
-import { AppDispatch, store } from "@/redux/store";
+import { AppDispatch } from "@/redux/store";
 import { shoppingCartActions } from "@/redux/reducers/shoppingCartSlice/shoppingCartSlice";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { toast } from "react-toastify";
 
 const TicketCallToAction: React.FC<TicketCallToActionProps> = ({

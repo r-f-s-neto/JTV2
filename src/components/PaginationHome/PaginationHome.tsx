@@ -3,6 +3,7 @@ import { ChangeEvent } from "react";
 import { PaginationHomeProps } from "./PaginationHome.types";
 import styles from "./paginationHome.module.css";
 import SelectPages from "../SelectPages";
+
 const PaginationHome: React.FC<PaginationHomeProps> = ({
   page,
   setPage,
