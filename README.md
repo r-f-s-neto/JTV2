@@ -44,6 +44,7 @@ npm run build
 Ou, se você estiver usando o Yarn:
 ```
 yarn build
+```
 
 ## 💾 Tecnologias utilizadas
 
