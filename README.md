@@ -9,9 +9,10 @@
 * ### [Tecnologias Utilizadas](#front-end)
 * ### [Dependências](#dependências)
 * ### [Funcionalidades](#funcionalidades-front-end)
-    * [Filtro de busca](#autenticação)
+    * [Filtro de busca](#filtro)
     * [Página de Listagem de Produtos](#front-end)
     * [Página Interna de Produtos](#front-end)
-    *  
 
 <!-------te------>
+#filtro
+Recurso para a filtragem dos pacotes de viagem pelo nome e localização
