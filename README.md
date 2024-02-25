@@ -1,18 +1,57 @@
-# <p align="center"> PROJETO EM NEXTJS </p></br>
+# Projeto De E-commerce Voltado A Venda De Pacotes De Viagens 
 
-# <p align="center"> E-commerce </p></br>
-  
-  <p align="center">E-commerce voltado a venda de pacotes de viagem.</p></br>
+## 📁 Executar o projeto
 
-## <p align="center">índice:</p></br>
-<!------ts------->
-* ### [Tecnologias Utilizadas](#front-end)
-* ### [Dependências](#dependências)
-* ### [Funcionalidades](#funcionalidades-front-end)
-    * [Filtro de busca](#filtro)
-    * [Página de Listagem de Produtos](#front-end)
-    * [Página Interna de Produtos](#front-end)
+### Para instalar as dependências
 
-<!-------te------>
-#filtro
-Recurso para a filtragem dos pacotes de viagem pelo nome e localização
+```
+npm install
+```
+Ou, se você estiver usando o Yarn:
+```
+yarn
+```
+
+### Para rodar o projeto Next.js em um ambiente de produção
+
+Primeiro, você precisa construir seu projeto Next.js. Isso criará uma versão otimizada do aplicativo para produção. Você pode fazer isso executando o seguinte comando no terminal, na raiz do seu projeto:
+
+```
+npm run build
+```
+Ou, se você estiver usando o Yarn:
+```
+yarn build
+```
+
+Depois que o projeto for construído, você pode iniciar o servidor Next.js para servir a versão otimizada do aplicativo. Você pode fazer isso executando:
+
+```
+npm run start
+```
+Ou, com o Yarn:
+```
+yarn start
+```
+
+### Para rodar o projeto Next.js em um ambiente de desenvolvimento
+
+Next.js vem com um servidor de desenvolvimento embutido que suporta hot-reloading e outras funcionalidades úteis para desenvolvimento. Para iniciar o servidor de desenvolvimento, execute o seguinte comando:
+
+```
+npm run build
+```
+Ou, se você estiver usando o Yarn:
+```
+yarn build
+
+## 💾 Tecnologias utilizadas
+
+- Typescript
+- Next.js 14
+- Jest
+- React testing Library
+
+## ✒️ Autor
+
+- [Raimundo Neto](https://github.com/r-f-s-neto)
